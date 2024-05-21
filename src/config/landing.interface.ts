@@ -3,9 +3,6 @@ export interface LandingPageData {
   headerData: HeaderData;
   heroData: HeroData;
   servicesData: ServicesData;
-  adventajesData: AdventajesData;
-  brandsData: BrandsData;
-  pricingData: PricingData;
   footerData: FooterData;
   aidetectionData: ServicesData; // 请替换为实际的类型
   aidesignData: ServicesData; // 请替换为实际的类型
