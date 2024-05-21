@@ -1,0 +1,39 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Aicode from "@/sections/Aicode.astro";
+import Aidesign from "@/sections/Aidesign.astro";
+import Aidetection from "@/sections/Aidetection.astro";
+import Aioffice from "@/sections/Aioffice.astro";
+import Aistudy from "@/sections/Aistudy.astro";
+import Aitranslate from "@/sections/Aitranslate.astro";
+import Aivideo from "@/sections/Aivideo.astro";
+import Aiwrite from "@/sections/Aiwrite.astro";
+import Footer from "@/sections/Footer.astro";
+import Header from "@/sections/Header.astro";
+import Hero from "@/sections/Hero.astro";
+import Services from "@/sections/Services.astro";
+import { getLandingData } from "@/services/data.service";
+
+//js
+
+const data = await getLandingData();
+---
+
+<Layout meta={data.meta}>
+  <Header data={data.headerData} />
+  <main class="flex flex-col justify-center items-center">
+    <div class="w-3/4">
+      <Hero data={data.heroData} />
+      <Services data={data.servicesData} />
+	  <Aioffice data={data.aiofficeData} />
+	  <Aiwrite data={data.aiwriteData} />
+	  <Aivideo data={data.aivideoData} />
+	  <Aicode data={data.aicodeData} />
+	  <Aistudy data={data.aistudyData} />
+	  <Aitranslate data={data.aitranslateData} />
+	  <Aidesign data={data.aidesignData} />
+	  <Aidetection data={data.aidetectionData} />
+    </div>
+    <Footer data={data.footerData} />
+  </main>
+</Layout>
