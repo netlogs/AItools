@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![image](https://github.com/JimmyCamus/luna-landing/assets/86853554/7dc4c571-bb33-4e55-ae94-446b056539a0)
 
 
@@ -43,3 +44,7 @@ pnpm dev
 - Astro - The web framework for content-driven websites.
 - Typescript - JavaScript with syntax for types.
 - Tailwind CSS - A utility-first CSS framework for rapidly building custom designs.
+=======
+# AItools
+my website Altools
+>>>>>>> a2bfdf1f554f230f464c12fccaf9d1c987836265
