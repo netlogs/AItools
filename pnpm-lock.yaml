@@ -23,6 +23,9 @@ importers:
       '@fontsource-variable/rubik':
         specifier: ^5.0.21
         version: 5.0.21
+      '@vercel/analytics':
+        specifier: ^1.3.1
+        version: 1.3.1
       astro:
         specifier: ^4.4.4
         version: 4.4.4(typescript@5.4.5)
@@ -815,8 +818,8 @@ packages:
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  '@vercel/analytics@1.2.2':
-    resolution: {integrity: sha512-X0rctVWkQV1e5Y300ehVNqpOfSOufo7ieA5PIdna8yX/U7Vjz0GFsGf4qvAhxV02uQ2CVt7GYcrFfddXXK2Y4A==}
+  '@vercel/analytics@1.3.1':
+    resolution: {integrity: sha512-xhSlYgAuJ6Q4WQGkzYTLmXwhYl39sWjoMA3nHxfkvG+WdBT25c563a7QhwwKivEOZtPJXifYHR1m2ihoisbWyA==}
     peerDependencies:
       next: '>= 13'
       react: ^18 || ^19
@@ -3327,7 +3330,7 @@ snapshots:
   '@astrojs/vercel@7.6.0(astro@4.4.4(typescript@5.4.5))':
     dependencies:
       '@astrojs/internal-helpers': 0.4.0
-      '@vercel/analytics': 1.2.2
+      '@vercel/analytics': 1.3.1
       '@vercel/edge': 1.1.1
       '@vercel/nft': 0.26.5
       astro: 4.4.4(typescript@5.4.5)
@@ -3954,7 +3957,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vercel/analytics@1.2.2':
+  '@vercel/analytics@1.3.1':
     dependencies:
       server-only: 0.0.1
 
