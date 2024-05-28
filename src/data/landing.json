@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "AI tools, 国内外AI工具大全",
-    "description": "AI gpt 人工智能工具 AI大全 人工智能大全 AI工具",
+    "description": "AI工具集,AI工具集官网,AI工具集网站,AI工具集导航,colorepistle.com,AI工具集导航官网,AI工具导航,AI工具大全,AI网站大全,AI软件大全,AI工具集合,AI工具集合网,AI工具库,AI工具箱,AI工具箱导航",
     "lang": "zh-CN",
     "charset": "UTF-8",
     "ldJson": {
@@ -9,7 +9,7 @@
       "@type": "Organization",
       "name": "colorepistle",
       "description": "Fictitious company that seeks to elevate and simplify the lives of web developers.",
-      "url": "https://luna-landing-rust.vercel.app/",
+      "url": "https://www.colorepistle.com",
       "logo": "./public/AIlogo.ico",
       "contactPoint": {
         "@type": "ContactPoint",
